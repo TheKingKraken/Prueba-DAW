@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>EventosMotor</title>
+    <style>
+        body{
+            background-image: url(img/Sin\ título.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: -15%;
+            background-attachment: fixed;
+        }
+
+        .contenedorMenuSuperior{
+            height: 100px;
+        }
+
+        .iconsMenu{
+            height: 30%;
+        }
+
+        .iconsMenu img{
+            height: 100%;
+            width: 10%;
+        }
+
+        .imgBrand{
+            height: 30%;
+            border-bottom: 3px solid black;
+            background-color: white;
+        }
+
+        .imgBrand img{
+            height: 30%;
+            width: 30%;
+        }
+
+        .galeria{
+            background-color: white;
+        }
+
+        footer{
+            background-color: white;
+        }
+    </style>
+</head>
+<body class="">
+    <div class="container">
+        <div class="row">
+            <nav class="col-lg-10 mx-auto navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-around align-items-center contenedorMenuSuperior w-100 d-flex justify-content-around">
+                        <div class="w-100">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center tlf" href="#">
+                                        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                                        <lord-icon
+                                            src="https://cdn.lordicon.com/ssvybplt.json"
+                                            trigger="hover"
+                                            style="width:20px;height:20px">
+                                        </lord-icon>
+                                        +34 695 834 919</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center email" href="#">
+                                        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                                        <lord-icon
+                                            src="https://cdn.lordicon.com/diihvcfp.json"
+                                            trigger="hover"
+                                            style="width:20px;height:20px">
+                                        </lord-icon>
+                                        informacion@eventosmotor.com</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center user" href="#">
+                                        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                                        <lord-icon
+                                            src="https://cdn.lordicon.com/bhfjfgqz.json"
+                                            trigger="hover"
+                                            style="width:20px;height:20px">
+                                        </lord-icon>
+                                        Mi cuenta</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-flex justify-content-end d-flex align-items-center w-100 iconsMenu">
+                            <div class="d-flex justify-content-end">
+                                <img class="me-2" src="img/facebook.png" alt="">
+                                <img src="img/instagram.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto navbar navbar-expand-lg d-flex justify-content-center imgBrand">
+                <img src="img/Logo.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <nav class="navegacion navbar navbar-expand-lg col-lg-10 mx-auto bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img class="img-logo" src="img/Otaweekend.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                      <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title text-danger" id="offcanvasDarkNavbarLabel">MENÚ</h5>
+                                <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">CALENDARIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">HISTÓRICO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">ENTRADAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">CONTACTO</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="carouselExampleInterval" class="carousel slide col-lg-10 mx-auto" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img class="img-fluid col-12" src="img/Carrousel1.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img class="img-fluid col-12" src="img/Carrousel2.png" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class=" d-flex align-items-center justify-content-around flex-column col-lg-10 mx-auto galeria">
+                <h2 class="text-center m-5">Eventos Celebrados</h2>
+                <div class="row mb-3">
+                  <div class="col-4"><img class="img-fluid" src="img/evento1.jpg"></div>
+                  <div class="col-4"><img class="img-fluid" src="img/evento2.jpg"></div>
+                  <div class="col-4"><img class="img-fluid" src="img/evento3.jpg"></div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-4"><img class="img-fluid" src="img/evento4.jpg"></div>
+                  <div class="col-4"><img class="img-fluid" src="img/evento5.jpg"></div>
+                  <div class="col-4"><img class="img-fluid" src="img/evento6.jpg"></div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-4"><img class="img-fluid" src="img/evento7.jpg"></div>
+                  <div class="col-4"><img class="img-fluid" src="img/evento8.jpg"></div>
+                  <div class="col-4"><img class="img-fluid" src="img/evento9.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <footer class="col-lg-10 mx-auto">HOLA</footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
